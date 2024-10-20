@@ -12,7 +12,7 @@ public class AppDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-             optionsBuilder.UseNpgsql("Host=webchatpg.c7m2swsiky3r.us-east-2.rds.amazonaws.com;Port=5432;Username=postgres;Password=12345678;Database=api-db");
+             optionsBuilder.UseNpgsql("Host=webchatpg.c7m2swsiky3r.us-east-2.rds.amazonaws.com;Database=api_db;Username=postgres;Password=SWFnNsuQ0a1aEMq");
         }
     }
 }
